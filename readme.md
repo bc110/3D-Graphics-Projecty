@@ -1,3 +1,3 @@
-## Theame
+## Theam
 
-For this project the theme I choise was woodworking.
+For this project the them I choise was woodworking.
