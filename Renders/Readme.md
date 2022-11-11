@@ -64,7 +64,12 @@ and where necessary adding loop cuts and indents to maintain the shape I wanted.
 The stump was made by take a cylinder and using randomizer to give it a nice baci shape, 
 Then I extruded and twisted faces till I got the reult I wanted.
 
-## Stump
+## Sign
 
 The sign was a cube with an indented face which was pushed down, a boolean was used with
 text to indent text onto the sign.
+
+## Render
+For my render I used cycles and thre light sources. I postioned all my objects on a flat plain
+and used a basic envioment texture to make my reflections look a little better/
+
