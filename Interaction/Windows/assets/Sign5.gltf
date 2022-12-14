@@ -1,0 +1,234 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Sign",
+            "rotation" : [
+                1,
+                0,
+                0,
+                0
+            ],
+            "scale" : [
+                -1.4276198148727417,
+                -0.11313706636428833,
+                -3.04601788520813
+            ],
+            "translation" : [
+                0,
+                0.6699197888374329,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.2136363685131073,
+                "roughnessFactor" : 0.20000000298023224
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Ingrave",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "wood_texture",
+            "uri" : "Textures/wood_texture.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10152,
+            "max" : [
+                0.30597007274627686,
+                0.690556526184082,
+                0.3000589609146118
+            ],
+            "min" : [
+                -0.31262892484664917,
+                0.36937591433525085,
+                -0.318540096282959
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10152,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10152,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 51897,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2319,
+            "max" : [
+                0.20292511582374573,
+                0.508844792842865,
+                0.18659865856170654
+            ],
+            "min" : [
+                -0.21106436848640442,
+                0.4073607921600342,
+                -0.20684176683425903
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2319,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2319,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 5997,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 121824,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 121824,
+            "byteOffset" : 121824,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81216,
+            "byteOffset" : 243648,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 103794,
+            "byteOffset" : 324864,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27828,
+            "byteOffset" : 428660,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27828,
+            "byteOffset" : 456488,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18552,
+            "byteOffset" : 484316,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11994,
+            "byteOffset" : 502868,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 514864,
+            "uri" : "Sign5.bin"
+        }
+    ]
+}

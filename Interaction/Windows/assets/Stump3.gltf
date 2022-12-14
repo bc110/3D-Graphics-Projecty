@@ -1,0 +1,240 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylinder",
+            "scale" : [
+                1.4317821264266968,
+                1.4317821264266968,
+                0.07330387830734253
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "WoodBark",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "WoodRings",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "bark",
+            "uri" : "Textures/bark.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Image",
+            "uri" : "Textures/Image.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "wooden-log-texture",
+            "uri" : "Textures/wooden-log-texture.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 17464,
+            "max" : [
+                1.186728596687317,
+                1.1106641292572021,
+                26.974544525146484
+            ],
+            "min" : [
+                -1.0841883420944214,
+                -1.1630526781082153,
+                -1.0683341026306152
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 17464,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 17464,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 26196,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1926,
+            "max" : [
+                1.186728596687317,
+                1.1106641292572021,
+                26.974544525146484
+            ],
+            "min" : [
+                -1.0841883420944214,
+                -1.1630526781082153,
+                -1.0683585405349731
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1926,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1926,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 3528,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 209568,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 209568,
+            "byteOffset" : 209568,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 139712,
+            "byteOffset" : 419136,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52392,
+            "byteOffset" : 558848,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23112,
+            "byteOffset" : 611240,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23112,
+            "byteOffset" : 634352,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15408,
+            "byteOffset" : 657464,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7056,
+            "byteOffset" : 672872,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 679928,
+            "uri" : "Stump3.bin"
+        }
+    ]
+}
